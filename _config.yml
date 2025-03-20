@@ -1,0 +1,6 @@
+kramdown:
+  math_engine: katex
+
+title: GPS time dilation
+description: Time dilation of GPS satellites due to relativity GR and SR
+theme: minima
