@@ -6,7 +6,7 @@ GPS satellites experience both gravitational time dilation (due to being farther
 
 2. **Special Relativistic Time Dilation:** Due to the satellite's orbital speed (around 14,000 km/h), its clock runs *slower*. This effect leads to a loss of about **−7.2 microseconds** per day.
 
-When we combine these effects, the net result is that the satellite clock runs about **+38 microseconds faster per day** compared to a clock on Earth.
+When we combine these effects, the net result is that the satellite clock runs about **+38.5 microseconds faster per day** compared to a clock on Earth.
 
 Although this seems tiny, it’s a critical adjustment—GPS systems have to account for this difference to maintain precise timing, as even a small error can lead to significant inaccuracies in positioning. 
 
@@ -43,7 +43,7 @@ $$
 \frac{\Delta t_s}{\Delta t_e} \approx 1 + (4.44 \times 10^{-3} \times 1.191 \times 10^{-7}) = 1 + 5.29 \times 10^{-10}
 $$
  
-So, the GPS satellite clock ticks faster due to the weaker gravity, gaining about **45.6 microseconds per day**.
+So, the GPS satellite clock ticks faster due to the weaker gravity, gaining about **45.7 microseconds per day**.
 
 ``` py
 import math
@@ -61,7 +61,7 @@ print(f"Gravitational Time Dilation Factor: {delta_t_factor}")
 print(f"Time Dilation per day: {day*delta_t_factor*10**6:.1f} microseconds.")
 ```
 
-> Gravitational Time Dilation Factor: 5.278632732243486e-10 and Time Dilation per day: 45.6 microseconds.
+> Gravitational Time Dilation Factor: 5.278632732243486e-10 and Time Dilation per day: 45.7 microseconds.
 
 ## 2. Special Relativity Time Dilation
 
@@ -75,6 +75,28 @@ $$
  
 where $𝑣 = 3.87×10^3$ m/s.
 
+$$
+\frac{v^2}{c^2} = \left( \frac{3.87 \times 10^3}{3.0 \times 10^8} \right)^2 = 1.66 \times 10^{-10}
+$$
+
+$$
+\sqrt{1 - 1.66 \times 10^{-10}} \approx 1 - \frac{1.66 \times 10^{-10}}{2} = 1 - 8.3 \times 10^{-11}
+$$
+
+``` py
+import math
+
+v = 3.87 * 10**3  # Satellite velocity
+c = 3.0 * 10**8   # Speed of light
+day = 24 * 60 * 60  # Number of seconds in a
+
+gamma = (v**2 / c**2)
+d = math.sqrt(1 - gamma)
+print(f"Relativistic Time Dilation Factor: {d} with the gamma ratio (v/c)^2: {gamma}")
+print(f"Time Dilation per day: {day*(1-d)*10**6:.3f} microseconds.")
+```
+
+> Relativistic Time Dilation Factor: 0.999999999916795 with the gamma ratio (v/c)^2: 1.6641e-10, leading to a time Dilation per day: 7.189 microseconds.
 
 ## Total Time Difference in 24 Hours
 
