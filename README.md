@@ -110,5 +110,5 @@ print(f"Time Dilation per day: {day*(1-d)*10**6:.3f} microseconds.")
 
 ### Conclusion
 
-A GPS satellite clock runs ahead of a ground clock by about 38.5 microseconds per day. This discrepancy is corrected in GPS system design to ensure accurate positioning calculations.
+A GPS satellite clock runs ahead of a ground clock by about 38.5 microseconds per day. This discrepancy is corrected in GPS system design to ensure accurate positioning calculations. These 38.5 microseconds relate to a location error of more than 11 kilometers! That's 8 meters every minute if not corrected. So for a precise location a good clock is neccessary, and the effects of general and special relativity have to be taken into account!
   
