@@ -1,5 +1,9 @@
 # Relative time for GPS satellites
 
+![GitHub Release](https://img.shields.io/github/v/release/kreier/gps-relativity)
+![GitHub License](https://img.shields.io/github/license/kreier/gps-relativity)
+[![Deploy Jekyll with GitHub Pages](https://github.com/kreier/gps-relativity/actions/workflows/jekyll-gh-pages.yml/badge.svg)](https://github.com/kreier/gps-relativity/actions/workflows/jekyll-gh-pages.yml)
+
 GPS satellites experience both gravitational time dilation (due to being farther from Earth's gravitational field compared to ground stations) and special relativistic time dilation (due to their high orbital velocity). Let's break it down:
 
 1. **Gravitational Time Dilation:** The satellite's clock runs *faster* because it's farther from Earth’s gravitational field. This causes its clock to gain about **+45.7 microseconds** per day relative to a clock on the ground.
