@@ -146,7 +146,7 @@ hr {
 img {
   position: relative;
   margin: 0 auto;
-  max-width: 650px;
+  max-width: 850px;
   padding: 5px;
   margin: 10px 0 32px 0;
   border: 1px solid #ccc;
@@ -320,7 +320,7 @@ a.buttons:hover {
 /* Section - for main page content */
 
 section {
-  width:650px;
+  width:850px;
   float:right;
   padding-bottom:50px;
 }
@@ -336,7 +336,7 @@ footer {
 	padding-left: 50px;
 }
 
-@media print, screen and (max-width: 1260px) {
+@media print, screen and (max-width: 1160px) {
 
   div.wrapper {
     width:auto;
