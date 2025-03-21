@@ -33,14 +33,30 @@ where:
 - $𝑟_e = 6,378 km = 6.378 × 10^6 m$ (Earth's radius)
 - $r_s = 26,600 km = 2.66 × 10^7 m$ (GPS satellite orbital radius)
 
+replace $ with \(
+
 - \(𝐺=6.674×10^{−11} m^3/kg/s^2\) (gravitational constant)
 - \(𝑀=5.972×10^{24} kg\) (Earth’s mass)
 - \(𝑐=3.0×10^8 m/s\) (speed of light)
 - \(𝑟_e = 6,378 km = 6.378 × 10^6 m\) (Earth's radius)
 - \(r_s = 26,600 km = 2.66 × 10^7 m\) (GPS satellite orbital radius)
 
+double dollar?
 
+- $$𝐺=6.674×10^{−11} m^3/kg/s^2$$ (gravitational constant)
+- $$𝑀=5.972×10^{24} kg$$ (Earth’s mass)
+- $$𝑐=3.0×10^8 m/s$$ (speed of light)
+- $$𝑟_e = 6,378 km = 6.378 × 10^6 m$$ (Earth's radius)
+- $$r_s = 26,600 km = 2.66 × 10^7 m$$ (GPS satellite orbital radius)
 Calculating the gravitational time dilation factor:
+
+Or another one?
+
+- \[𝐺=6.674×10^{−11} m^3/kg/s^2\] (gravitational constant)
+- \[𝑀=5.972×10^{24} kg\] (Earth’s mass)
+- \[𝑐=3.0×10^8 m/s\] (speed of light)
+- \[𝑟_e = 6,378 km = 6.378 × 10^6 m\] (Earth's radius)
+- \[r_s = 26,600 km = 2.66 × 10^7 m\] (GPS satellite orbital radius)
 
 $$
 \frac{𝐺𝑀}{𝑐^2} = \frac{(6.674×10^{−11})(5.972×10^{24})}{(3.0×10^8)^2} = 4.44 × 10^{−3} m
