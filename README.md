@@ -33,6 +33,13 @@ where:
 - $𝑟_e = 6,378 km = 6.378 × 10^6 m$ (Earth's radius)
 - $r_s = 26,600 km = 2.66 × 10^7 m$ (GPS satellite orbital radius)
 
+- \(𝐺=6.674×10^{−11} m^3/kg/s^2\) (gravitational constant)
+- \(𝑀=5.972×10^{24} kg\) (Earth’s mass)
+- \(𝑐=3.0×10^8 m/s\) (speed of light)
+- \(𝑟_e = 6,378 km = 6.378 × 10^6 m\) (Earth's radius)
+- \(r_s = 26,600 km = 2.66 × 10^7 m\) (GPS satellite orbital radius)
+
+
 Calculating the gravitational time dilation factor:
 
 $$
