@@ -3,4 +3,5 @@ kramdown:
 
 title: GPS time dilation
 description: Time dilation of GPS satellites due to relativity GR and SR
+show_downloads: true
 theme: jekyll-theme-dinky
